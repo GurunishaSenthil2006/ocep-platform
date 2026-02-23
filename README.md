@@ -1,147 +1,45 @@
-You are a professional frontend developer.
+# Objective Consistency Evaluation Platform (OCEP)
 
-Build a complete responsive frontend UI using:
-- React.js (functional components + hooks)
-- Tailwind CSS / Bootstrap 5 for styling
-- Axios for API calls
-- React Router for navigation
-- Chart.js or Recharts for analytics graphs
+## 📌 Overview
+OCEP is an AI-driven learning analytics platform that evaluates whether learning objectives are achieved through consistent effort and measurable outcomes.
 
-Project Name:
-Objective Consistency Evaluation Platform (OCEP)
+The system allows students to set goals, follow study plans, track progress, submit reflections, and receive adaptive recommendations based on AI analysis.
 
-Project Purpose:
-This is an AI-driven learning analytics web application where students set learning goals, follow study plans, track progress, submit reflections, and view consistency analytics. The system evaluates whether students are consistently working toward their goals.
+## 🚀 Features
+- Goal setting and tracking
+- Study plan generation
+- Progress monitoring
+- NLP-based reflection analysis
+- Burnout detection
+- Motivation reminders
+- Consistency scoring dashboard
 
-Design Requirements:
-- Clean modern dashboard style
-- Card-based layout
-- Fully responsive
-- Sidebar navigation
-- Light theme with blue accent colors
-- Simple and intuitive UI
+## 🧠 AI Capabilities
+- Learning difficulty detection
+- Sentiment analysis
+- Adaptive planning
 
---------------------------------------------------
-PAGES TO IMPLEMENT
---------------------------------------------------
+## 🏗 System Architecture
+Frontend: React + Bootstrap  
+Backend: Spring Boot (Java)  
+Database: MySQL  
+AI Service: Python FastAPI NLP  
 
-1. Authentication Pages
-- Login page
-- Register page
-- Role selection (Student / Faculty / Admin)
-- Form validation
-- Bootstrap form design
+## 📂 Project Structure
+backend-springboot/
+frontend-react/
+nlp-service-python/
+database/
 
-2. Main Dashboard (Student)
-Display:
-- Active goals
-- Today's study tasks
-- Consistency score
-- Burnout risk indicator
-- Progress summary cards
+## 🛠 Setup Instructions
+1. Clone repository
+2. Setup MySQL database
+3. Run Spring Boot backend
+4. Run React frontend
+5. Start Python NLP service
 
-3. Goal Management Page
-- Create new goal form
-- Goal list view
-- Goal detail page
-- Progress percentage bar
+## 📊 Status
+Development Phase – Initial Setup
 
-Fields:
-- goal title
-- duration
-- start date
-- description
-
-4. Study Plan Page
-- Daily study plan list
-- Mark task completed
-- Task status badges
-- Calendar style layout (optional)
-
-5. Progress Tracking Page
-- Enter completed problems
-- Enter time spent
-- Completion toggle
-- History table
-
-6. Reflection Submission Page
-- Text area input
-- Submit reflection
-- Show NLP analysis results
-   - detected difficulty
-   - topic
-   - sentiment
-
-7. Analytics Dashboard
-Charts:
-- Consistency score over time
-- Task completion rate
-- Topic difficulty distribution
-- Burnout trend
-
-Use charts:
-- Line chart
-- Bar chart
-- Pie chart
-
-8. Notifications Panel
-- Missed tasks alert
-- Reminder messages
-- Burnout warning
-
---------------------------------------------------
-COMPONENT STRUCTURE
---------------------------------------------------
-
-Create reusable components:
-- Sidebar
-- Navbar
-- GoalCard
-- ProgressChart
-- TaskList
-- ReflectionForm
-- StatsCard
-- Loader
-
---------------------------------------------------
-API SERVICE LAYER
---------------------------------------------------
-
-Create separate API service file using Axios.
-
-Example endpoints:
-- /api/auth/login
-- /api/goals
-- /api/study-plans
-- /api/progress
-- /api/reflections
-- /api/analytics
-
---------------------------------------------------
-PROJECT STRUCTURE
---------------------------------------------------
-
-src/
-  components/
-  pages/
-  services/
-  hooks/
-  layouts/
-  App.js
-  index.js
-
---------------------------------------------------
-OUTPUT REQUIREMENTS
---------------------------------------------------
-
-Generate:
-- Complete React project structure
-- All pages and components
-- Routing setup
-- Bootstrap styling
-- Dummy sample data for testing
-- Clean readable code
-- Comments explaining logic
-
-Do NOT skip files.
-Generate full working frontend code.
+## 👩‍💻 Author
+GURUNISHA S
